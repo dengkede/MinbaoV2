@@ -52,5 +52,4 @@ dependencies {
     implementation 'com.blankj:utilcode:1.13.16'
     implementation 'com.github.ithedan:TextViewDrawable:v1.0'
     implementation project(path: ':faceplatform-ui')
-    implementation project(':myokhttp')
 }

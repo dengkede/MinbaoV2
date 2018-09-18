@@ -146,7 +146,6 @@
             android:screenOrientation="landscape"
             android:theme="@style/CommonAPPTheme_FullScreen"
             android:windowSoftInputMode="adjustPan|stateHidden" />
-        <activity android:name=".ui.activity.TextActivity"></activity>
     </application>
 
 </manifest>

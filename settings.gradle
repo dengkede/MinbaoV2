@@ -1,1 +1,1 @@
-include ':app', ':commonLib4MVP', ':commonLibGmap', ':faceplatform-ui', ':faceplatform',":myokhttp"
+include ':app', ':commonLib4MVP', ':commonLibGmap', ':faceplatform-ui', ':faceplatform'
