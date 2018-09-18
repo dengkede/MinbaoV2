@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_home_title_normal">
+        <item>进行中</item>
+        <item>已完成</item>
+        <item>未开始</item>
+    </string-array>
+
+    <string-array name="list_home_title_warehouse">
+        <item>销售入库</item>
+        <item>退库登记</item>
+        <item>出库登记</item>
+    </string-array>
+
+    <string-array name="list_home_title_blasting">
+        <item>进行中</item>
+        <item>已完成</item>
+        <item>未开始</item>
+    </string-array>
+
+    <string-array name="list_company_type">
+        <item>爆破公司</item>
+        <item>监理公司</item>
+        <item>配送公司</item>
+        <item>仓储公司</item>
+    </string-array>
+
+    <string-array name="list_loginUser_type">
+        <item>管理员</item>
+        <item>爆破员</item>
+        <item>安全员</item>
+        <item>保管员</item>
+        <item>技术员</item>
+        <item>押运员</item>
+        <item>驾驶员</item>
+        <item>仓库保管员</item>
+        <item>监理员</item>
+        <item>评估人员</item>
+    </string-array>
+
+    <string-array name="list_title_receiveRegister">
+        <item>炸药</item>
+        <item>雷管</item>
+        <item>工业索类</item>
+    </string-array>
+
+    <string-array name="list_title_useRegister">
+        <item>物品信息</item>
+        <item>爆前检查</item>
+        <item>电子围栏</item>
+        <item>爆后检查</item>
+    </string-array>
+
+    <string-array name="list_check_before_standard">
+        <item>符合设计规范</item>
+        <item>不符合设计规范</item>
+    </string-array>
+
+    <string-array name="list_title_productRecord">
+        <item>领用记录</item>
+        <item>使用记录</item>
+        <item>退还记录</item>
+    </string-array>
+</resources>

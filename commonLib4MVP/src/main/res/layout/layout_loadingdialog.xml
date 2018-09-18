@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_loading"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.wang.avi.AVLoadingIndicatorView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/avLoading"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicatorColor="@android:color/white"
+        app:indicatorName="BallSpinFadeLoaderIndicator" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="正在加载"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

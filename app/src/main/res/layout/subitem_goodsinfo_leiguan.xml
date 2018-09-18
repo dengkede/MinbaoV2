@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginLeft="13dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="3dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/bg_goods_info_item"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/layout_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_lab_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:alpha="0.8"
+                android:text="@string/useRegister_goodInfo_lab_leiguan_name"
+                android:textColor="@color/color_home_username"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:drawableEnd="@mipmap/icon_more"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/icon_more"
+                android:gravity="center_vertical"
+                android:text="@string/useRegister_goodInfo_hint_leiguan_name"
+                android:textColor="#77333333"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/tv_lab_name"
+                android:layout_marginTop="6dp"
+                android:background="@color/color_useRecords_goodsInfo_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_name">
+
+            <TextView
+                android:id="@+id/tv_lab_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:alpha="0.8"
+                android:text="@string/useRegister_goodInfo_lab_leiguan_type"
+                android:textColor="@color/color_home_username"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:drawableEnd="@mipmap/icon_more"
+                android:drawablePadding="10dp"
+                android:drawableRight="@mipmap/icon_more"
+                android:gravity="center_vertical"
+                android:text="@string/useRegister_goodInfo_hint_leiguan_type"
+                android:textColor="#77333333"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/tv_lab_type"
+                android:layout_marginTop="6dp"
+                android:background="@color/color_useRecords_goodsInfo_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_type">
+
+            <TextView
+                android:id="@+id/tv_lab_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:alpha="0.8"
+                android:text="@string/useRegister_goodInfo_lab_leiguan_count"
+                android:textColor="@color/color_home_username"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/edit_count"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@null"
+                android:gravity="end"
+                android:hint="@string/useRegister_goodInfo_hint_leiguan_count"
+                android:inputType="number"
+                android:textColor="#cc333333"
+                android:textColorHint="#77333333"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/tv_lab_count"
+                android:layout_marginTop="6dp"
+                android:background="@color/color_useRecords_goodsInfo_divider" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_check_num"
+            android:layout_width="68dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_btn_check_num"
+            android:text="@string/common_num_check"
+            android:textColor="@color/color_common_blue"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_count" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <com.wxh.common4mvp.customView.ClickableImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn_add"
+        android:padding="3dp"
+        android:src="@mipmap/btn_close_white"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_login_edit"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingEnd="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_title_selfSuggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/useRegister_checkBefore_title_selfSuggestion"
+        android:textColor="@color/color_home_list_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/color_useRecords_goodsInfo_divider" />
+
+    <EditText
+        android:id="@+id/edit_selfSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_suggestion_edit"
+        android:gravity="top|start"
+        android:hint="@string/useRegister_checkBefore_hint_selfSuggestion"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textColor="#cc333333"
+        android:textColorHint="#33333333"
+        android:textSize="14sp" />
+</LinearLayout>

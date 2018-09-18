@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_common_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_common_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/layout_detail_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_blast_detail_top"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingBottom="7dp"
+            android:paddingEnd="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_detail_top_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="第十次购买"
+                android:textColor="@color/color_home_list_title"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <com.wxh.common4mvp.customView.ExpandLayout
+            android:id="@+id/layout_detail_middle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_detail_top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#ccffffff">
+
+            <RelativeLayout
+                android:id="@+id/layout_middle_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="7dp"
+                android:paddingEnd="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:paddingStart="10dp">
+
+                <TextView
+                    android:id="@+id/tv_detail_lab_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/transport_detail_lab_1"
+                    android:textColor="@color/color_map_lab"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_content_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_toEndOf="@id/tv_detail_lab_1"
+                    android:layout_toRightOf="@id/tv_detail_lab_1"
+                    android:gravity="end"
+                    android:text="杭甬高速公路夏巷互通至余梁公路连 接线(新增边坡)石方爆破工程"
+                    android:textColor="@color/color_home_list_title"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_middle_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_middle_1"
+                android:paddingBottom="7dp"
+                android:paddingEnd="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:paddingStart="10dp">
+
+                <TextView
+                    android:id="@+id/tv_detail_lab_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/transport_detail_lab_2"
+                    android:textColor="@color/color_map_lab"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_content_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_toEndOf="@id/tv_detail_lab_2"
+                    android:layout_toRightOf="@id/tv_detail_lab_2"
+                    android:gravity="end"
+                    android:text="浙江运冠民用危化品运输有限公司"
+                    android:textColor="@color/color_home_list_title"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_middle_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_middle_2"
+                android:paddingBottom="7dp"
+                android:paddingEnd="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:paddingStart="10dp">
+
+                <TextView
+                    android:id="@+id/tv_detail_lab_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/transport_detail_lab_3"
+                    android:textColor="@color/color_map_lab"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_content_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_toEndOf="@id/tv_detail_lab_3"
+                    android:layout_toRightOf="@id/tv_detail_lab_3"
+                    android:gravity="end"
+                    android:text="XXX仓库"
+                    android:textColor="@color/color_home_list_title"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_middle_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_middle_3"
+                android:paddingBottom="7dp"
+                android:paddingEnd="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:paddingStart="10dp">
+
+                <TextView
+                    android:id="@+id/tv_detail_lab_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/transport_detail_lab_4"
+                    android:textColor="@color/color_map_lab"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_content_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_toEndOf="@id/tv_detail_lab_4"
+                    android:layout_toRightOf="@id/tv_detail_lab_4"
+                    android:gravity="end"
+                    android:text="XXX作业现场地址"
+                    android:textColor="@color/color_home_list_title"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_middle_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_middle_4"
+                android:paddingBottom="7dp"
+                android:paddingEnd="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:paddingStart="10dp">
+
+                <TextView
+                    android:id="@+id/tv_detail_lab_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/transport_detail_lab_5"
+                    android:textColor="@color/color_map_lab"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_content_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_toEndOf="@id/tv_detail_lab_5"
+                    android:layout_toRightOf="@id/tv_detail_lab_5"
+                    android:gravity="end"
+                    android:text="浙B66666"
+                    android:textColor="@color/color_home_list_title"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_middle_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_middle_5"
+                android:paddingBottom="7dp"
+                android:paddingEnd="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:paddingStart="10dp">
+
+                <TextView
+                    android:id="@+id/tv_detail_lab_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/transport_detail_lab_6"
+                    android:textColor="@color/color_map_lab"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_content_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_toEndOf="@id/tv_detail_lab_6"
+                    android:layout_toRightOf="@id/tv_detail_lab_6"
+                    android:gravity="end"
+                    android:text="2018年8月8日"
+                    android:textColor="@color/color_home_list_title"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+        </com.wxh.common4mvp.customView.ExpandLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_detail_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_detail_middle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_blast_detail_bottom"
+            android:minHeight="10dp"
+            android:paddingTop="2dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/icon_flex" />
+
+        </RelativeLayout>
+
+        <com.amap.api.maps.TextureMapView
+            android:id="@+id/map_transport_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/layout_detail_bottom"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@mipmap/icon_refresh"
+            app:backgroundTint="@color/color_icon_suspension"
+            app:elevation="8dp"
+            app:fabSize="normal"
+            app:rippleColor="#44000000" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_arrive"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/selector_common_btn_bottom"
+        android:text="@string/transport_detail_btn_arrive_warehouse"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

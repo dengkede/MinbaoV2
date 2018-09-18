@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="prompt">提示</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="clear">清除</string>
+
+    <string name="comm_exit_msg">再按一下退出程序</string>
+    <string name="list_footview_loading">加载中，请稍后</string>
+    <string name="list_footview_error">网络错误，点击重试</string>
+
+    <string name="toast_network_unable">网络不给力，请检查网络状态</string>
+
+</resources>

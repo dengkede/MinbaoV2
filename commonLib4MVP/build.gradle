@@ -1,0 +1,79 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //多依赖编译兼容
+    api 'com.android.support:multidex:1.0.3'
+    //logger库 调试
+    api 'com.orhanobut:logger:2.2.0'
+    //加载中动画库
+    api 'com.wang.avi:library:2.1.3'
+    //黄油刀UI注解库
+    api 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //UI库
+    api 'com.android.support:design:27.1.1'
+    //recycleView库
+    api 'com.android.support:recyclerview-v7:27.1.1'
+    //cardView库
+    api 'com.android.support:cardview-v7:27.1.1'
+    //picasso图片加载库
+    api 'com.squareup.picasso:picasso:2.5.2'
+    //zxing条码/二维码库
+    api files('libs/core-3.2.2-20150819.125554-1.jar')
+    //roundedImageView库
+    api 'com.makeramen:roundedimageview:2.3.0'
+
+    //Gson库
+    api 'com.google.code.gson:gson:2.8.2'
+    //retrofit库
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    //RxJava库
+    api 'io.reactivex.rxjava2:rxjava:2.1.16'
+    //RxAndroid库
+    api 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    //配合Rxjava 使用
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    //转换器 将请求结果转换为model
+    api 'com.squareup.retrofit2:converter-gson:2.3.0'
+    //转换器 将请求结果转换为基本类型，一般为String
+    api 'com.squareup.retrofit2:converter-scalars:2.3.0'
+    //okHttp库
+    api 'com.squareup.okhttp3:okhttp:3.10.0'
+    //okHttp io库
+    api 'com.squareup.okio:okio:1.14.0'
+    //为okHttp配置缓存策略
+    api 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#d5edfc</color>
+
+    <color name="color_common_bg">#f2f2f2</color>
+
+    <color name="color_common_blue">#00a5E8</color>
+    <color name="color_common_blue2">#006de6</color>
+    <color name="color_common_red">#ff8484</color>
+    <color name="color_common_green">#00ca9d</color>
+    <color name="color_common_orange">#e88b00</color>
+    <color name="color_common_btn_enabled_false">#dadada</color>
+
+    <color name="color_checkbox_checked">#359be0</color>
+
+    <color name="color_login_center_bg">#ccffffff</color>
+    <color name="color_login_lab">#ff898b9b</color>
+    <color name="color_login_edit_hint">#ffcccccc</color>
+    <color name="color_login_btn_login">#ff0f83e2</color>
+
+    <color name="color_home_username">#333333</color>
+    <color name="color_home_no_mission">#344b67</color>
+    <color name="color_home_list_title">#333333</color>
+    <color name="color_home_list_location">#bcbcbc</color>
+    <color name="color_home_list_dot_unStart">#ff5682</color>
+    <color name="color_home_list_dot_process">#d4f02e</color>
+    <color name="color_home_list_dot_process2">#e98400</color>
+    <color name="color_home_list_dot_complete">#3beea9</color>
+
+    <color name="color_useRecords_goodsInfo_divider">#d2d2d2</color>
+
+    <color name="color_icon_suspension">#00ca9d</color>
+
+    <color name="color_map_lab">#999999</color>
+    <color name="color_map_person">#aaaaaa</color>
+
+    <color name="color_signature_title_bg">#1a00a5E8</color>
+    <color name="text_title">#b7b7b7</color>
+    <color name="text">#c7c7c7</color>
+
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_login_edit"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingEnd="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_accompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_lab_accompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:text="@string/useRegister_checkAfter_lab_accompany"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_more_accompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/icon_more" />
+
+        <TextView
+            android:id="@+id/tv_accompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:alpha="0.5"
+            android:text="刘林东"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_lab_accompany"
+            android:layout_marginTop="3dp"
+            android:background="@color/color_useRecords_goodsInfo_divider" />
+    </RelativeLayout>
+
+</LinearLayout>

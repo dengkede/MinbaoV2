@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_login_edit"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingEnd="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_title_signature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/useRegister_checkBefore_title_signature"
+        android:textColor="@color/color_home_list_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/color_useRecords_goodsInfo_divider" />
+
+    <LinearLayout
+        android:id="@+id/layout_signature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/bg_home_head"
+            app:riv_border_color="@color/color_useRecords_goodsInfo_divider"
+            app:riv_border_width="1dp"
+            app:riv_corner_radius="2dp"
+            app:riv_oval="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_signature"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn_signature"
+        android:text="@string/useRegister_checkBefore_hint_signature"
+        android:textColor="#77333333"
+        android:textSize="14sp" />
+
+</LinearLayout>

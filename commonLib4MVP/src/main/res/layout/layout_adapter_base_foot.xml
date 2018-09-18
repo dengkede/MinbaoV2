@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffeaeaea"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/layout_foot_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="@string/list_footview_loading"
+            android:textColor="#ff6f6f6f"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_foot_error"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="@string/list_footview_error"
+            android:textColor="#ff6f6f6f"
+            android:textSize="14sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_login_edit"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingEnd="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_title_acceptance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/useRegister_checkAfter_title_acceptance"
+        android:textColor="@color/color_home_list_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/color_useRecords_goodsInfo_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_acceptance_tip_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:padding="5dp"
+            android:text="@string/useRegister_checkAfter_tip_acceptance_1"
+            android:textColor="@color/color_common_blue2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_acceptance_tip_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:enabled="true"
+            android:padding="5dp"
+            android:text="@string/useRegister_checkAfter_tip_acceptance_2"
+            android:textColor="@color/color_common_blue2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_acceptance_tip_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:enabled="true"
+            android:padding="5dp"
+            android:text="@string/useRegister_checkAfter_tip_acceptance_3"
+            android:textColor="@color/color_common_blue2"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_acceptance"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_suggestion_edit"
+        android:gravity="top|start"
+        android:hint="@string/useRegister_checkAfter_hint_acceptance"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textColor="#cc333333"
+        android:textColorHint="#33333333"
+        android:textSize="14sp" />
+</LinearLayout>

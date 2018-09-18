@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.hlkj.minbao.ui.activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/bg_login" />
+
+    <ImageView
+        android:id="@+id/iv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:contentDescription="@string/login_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/img_login_title" />
+
+    <View
+        android:id="@+id/bg_center"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_login_center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_title" />
+
+    <TextView
+        android:id="@+id/txt_lab_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/login_lab_username"
+        android:textColor="@color/color_login_lab"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/bg_center"
+        app:layout_constraintTop_toTopOf="@+id/bg_center" />
+
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/bg_login_edit"
+        android:hint="@string/login_hint_edit_username"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/color_login_edit_hint"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/bg_center"
+        app:layout_constraintStart_toStartOf="@+id/bg_center"
+        app:layout_constraintTop_toBottomOf="@+id/txt_lab_username" />
+
+    <TextView
+        android:id="@+id/txt_lab_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="@string/login_lab_password"
+        android:textColor="@color/color_login_lab"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/txt_lab_username"
+        app:layout_constraintTop_toBottomOf="@+id/edit_username" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/bg_login_edit"
+        android:hint="@string/login_hint_edit_passward"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/color_login_edit_hint"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/edit_username"
+        app:layout_constraintStart_toStartOf="@+id/edit_username"
+        app:layout_constraintTop_toBottomOf="@+id/txt_lab_password" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/bg_login_btn"
+        android:text="@string/login_btn_login"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/bg_center"
+        app:layout_constraintEnd_toEndOf="@id/bg_center"
+        app:layout_constraintStart_toStartOf="@id/bg_center" />
+
+    <RelativeLayout
+        android:id="@+id/bg_check"
+        android:layout_width="270dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_login_check"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bg_center">
+
+        <CheckBox
+            android:id="@+id/check_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/login_check"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:theme="@style/LoginCheckBox" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_bottom_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/login_company_copyright"
+        android:textColor="@android:color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_bottom_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/login_company_name"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_bottom_copyright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

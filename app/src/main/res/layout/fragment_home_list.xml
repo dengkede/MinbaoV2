@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hlkj.minbao.ui.fragment.HomeListFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+
+        <include layout="@layout/item_refresh_recycle_list" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_common_nodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+        <include layout="@layout/item_common_nodata" />
+    </FrameLayout>
+
+</FrameLayout>

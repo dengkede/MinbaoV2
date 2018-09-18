@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">民爆</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="common_save">保存</string>
+    <string name="common_ok">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_delete">删除</string>
+    <string name="common_num_check">查看编号</string>
+    <string name="common_signature">确认并签字</string>
+    <string name="common_upload_video">\u3000视频上传\u3000</string>
+    <string name="common_upload_form">\u3000交接单上传\u3000</string>
+    <string name="common_upload_taizhang">\u3000台账上传\u3000</string>
+
+    <!--活体检测-->
+    <string name="faceLiveness_fail">人脸照片采集失败，请重新采集</string>
+    <string name="faceLiveness_accessToken_fail">人脸识别access_token获取失败</string>
+    <string name="faceLiveness_match_success">人脸匹配成功</string>
+    <string name="faceLiveness_match_fail">人脸匹配失败</string>
+
+    <string name="login_title">民爆管理平台</string>
+    <string name="login_lab_username">账\u3000号</string>
+    <string name="login_lab_password">密\u3000码</string>
+    <string name="login_hint_edit_username">请输入账号</string>
+    <string name="login_hint_edit_passward">请输入密码</string>
+    <string name="login_btn_login">登\u3000录</string>
+    <string name="login_check">我已经阅读并同意免责条款</string>
+    <string name="login_company_name">浙江海梁信息科技有限公司提供技术支持</string>
+    <string name="login_company_copyright">Copyright © 2017 - %s Hailiang science and technology.All Rights Reserved.</string>
+    <string name="login_error_username_empty">账号不能为空</string>
+    <string name="login_error_password_empty">密码不能为空</string>
+    <string name="login_error_no_read_doc">请阅读并同意免责条款</string>
+
+    <string name="home_fragment_empty">暂无任务</string>
+    <string name="home_list_item_title">第%d次爆破</string>
+    <string name="home_list_item_type_storage">[销售入库]</string>
+    <string name="home_list_item_type_outgoing">[物品出库]</string>
+    <string name="home_list_item_type_refund">[物品退库]</string>
+    <string name="home_list_error_get_mission_status">获取当前任务状态失败，请重试</string>
+
+    <string name="transport_detail_title">运输详情</string>
+    <string name="transport_detail_btn_arrive_warehouse">到达仓储公司</string>
+    <string name="transport_detail_btn_arrive_scene">到达作业现场</string>
+    <string name="transport_detail_btn_refund">退还物品交接</string>
+    <string name="transport_detail_btn_record">配送记录</string>
+
+    <string name="transport_detail_lab_1">项目名称</string>
+    <string name="transport_detail_lab_2">托运单位</string>
+    <string name="transport_detail_lab_3">运输起点</string>
+    <string name="transport_detail_lab_4">运输终点</string>
+    <string name="transport_detail_lab_5">承运车辆</string>
+    <string name="transport_detail_lab_6">配送时间</string>
+
+    <string name="goods_storage_list_item_title">%s第%d次入库</string>
+    <string name="goods_storage_list_item_empty">待录入入库物品</string>
+    <string name="goods_outgoing_list_item_title">%s第%d次出库</string>
+    <string name="goods_outgoing_list_item_empty">待录入出库物品</string>
+    <string name="goods_outgoing_list_head_title">出库物品预览</string>
+
+    <string name="warehouse_list_title">仓储详情</string>
+
+    <string name="blast_detail_title">爆破详情</string>
+
+    <string name="blast_detail_btn_signature">现场签到</string>
+    <string name="blast_detail_btn_wait_1">等待所有人员签到</string>
+    <string name="blast_detail_btn_wait_2">等待所有人员签到并领用</string>
+    <string name="blast_detail_btn_wait_3">等待物品运输到作业现场</string>
+    <string name="blast_detail_btn_receive">领用物品</string>
+    <string name="blast_detail_btn_use">使用登记</string>
+    <string name="blast_detail_btn_refund">退还物品</string>
+    <string name="blast_detail_btn_record">作业记录</string>
+    <string name="blast_detail_btn_supervise_record">旁站记录</string>
+
+    <string name="blast_detail_btn_supervise_record_supervision">监理旁站记录</string>
+
+    <string name="blast_detail_lab_1">项目名称</string>
+    <string name="blast_detail_lab_2">委托单位</string>
+    <string name="blast_detail_lab_3">爆破单位</string>
+    <string name="blast_detail_lab_4">项目级别</string>
+    <string name="blast_detail_lab_5">爆破次数</string>
+    <string name="blast_detail_lab_6">作业地点</string>
+    <string name="blast_detail_lab_7">作业时间</string>
+    <string name="blast_detail_lab_8">作业人员</string>
+    <string name="blast_detail_lab_9">监理人员</string>
+
+    <string name="goodsReceive_list_item_title">%s第%d次领用</string>
+    <string name="goodsReceive_list_item_lab_zhayao">炸药</string>
+    <string name="goodsReceive_list_item_lab_leiguan">雷管</string>
+    <string name="goodsReceive_list_item_lab_suolei">工业索类</string>
+    <string name="goodsReceive_list_item_lab_person">参与人员</string>
+    <string name="goodsReceive_list_item_lab_time">交接时间</string>
+
+    <string name="goods_receive_title">领用物品</string>
+    <string name="goods_receive_btn_review">领用物品预览</string>
+    <string name="goods_return_title">退还物品</string>
+    <string name="goods_return_btn_review">退还物品预览</string>
+
+    <string name="useRegister_title">使用登记</string>
+    <string name="useRegister_list_btn_consume">确认消耗</string>
+    <string name="useRegister_list_btn_add">新增</string>
+    <string name="useRegister_list_item_title">第%d次使用</string>
+    <string name="useRegister_list_item_lab_zhayao">炸药</string>
+    <string name="useRegister_list_item_lab_leiguan">雷管</string>
+    <string name="useRegister_list_item_lab_suolei">工业索类</string>
+    <string name="useRegister_list_item_lab_geofence">电子围栏</string>
+
+
+    <string name="useRegister_goodInfo_title_zhayao">炸药</string>
+    <string name="useRegister_goodInfo_title_leiguan">雷管</string>
+    <string name="useRegister_goodInfo_title_suolei">工业索类</string>
+
+    <string name="useRegister_goodInfo_lab_zhayao_name">品名</string>
+    <string name="useRegister_goodInfo_hint_zhayao_name">请选择炸药品名</string>
+    <string name="useRegister_goodInfo_lab_zhayao_type">型号</string>
+    <string name="useRegister_goodInfo_hint_zhayao_type">请选择炸药型号</string>
+    <string name="useRegister_goodInfo_lab_zhayao_count">数量(公斤)</string>
+    <string name="useRegister_goodInfo_hint_zhayao_count">请输入炸药使用数量</string>
+    <string name="useRegister_goodInfo_lab_leiguan_name">名称</string>
+    <string name="useRegister_goodInfo_hint_leiguan_name">请选择雷管名称</string>
+    <string name="useRegister_goodInfo_lab_leiguan_type">段别(段/米)</string>
+    <string name="useRegister_goodInfo_hint_leiguan_type">请选择雷管段别</string>
+    <string name="useRegister_goodInfo_lab_leiguan_count">数量(发)</string>
+    <string name="useRegister_goodInfo_hint_leiguan_count">请输入雷管使用数量</string>
+    <string name="useRegister_goodInfo_lab_suolei_type">类型</string>
+    <string name="useRegister_goodInfo_hint_suolei_type">请选择工业索类类型</string>
+    <string name="useRegister_goodInfo_lab_suolei_count">长度(米)</string>
+    <string name="useRegister_goodInfo_hint_suolei_count">请输入工业索类使用长度</string>
+
+    <string name="useRegister_checkBefore_title_standard">爆破工程是否规范</string>
+    <string name="useRegister_checkBefore_title_selfSuggestion">自评意见</string>
+    <string name="useRegister_checkBefore_title_signature">操作人签字</string>
+
+    <string name="useRegister_checkBefore_lab_standard_zuankong">钻孔</string>
+    <string name="useRegister_checkBefore_lab_standard_zhuangyao">装药</string>
+    <string name="useRegister_checkBefore_lab_standard_tiansai">填塞</string>
+    <string name="useRegister_checkBefore_lab_standard_anfang">安全防护</string>
+    <string name="useRegister_checkBefore_lab_standard_wangluo">起爆网络</string>
+    <string name="useRegister_checkBefore_lab_standard_zijian">安全自检</string>
+    <string name="useRegister_checkBefore_hint_selfSuggestion">请输入自评意见</string>
+    <string name="useRegister_checkBefore_hint_signature">点击此处签名</string>
+
+    <string name="useRegister_checkAfter_title_acceptance">验收内容</string>
+    <string name="useRegister_checkAfter_title_zijian">自检意见</string>
+
+    <string name="useRegister_checkAfter_tip_acceptance_1">#爆破效果良好#</string>
+    <string name="useRegister_checkAfter_tip_acceptance_2">#无盲炮#</string>
+    <string name="useRegister_checkAfter_tip_acceptance_3">#爆体稳定#</string>
+    <string name="useRegister_checkAfter_hint_acceptance">爆破效果，有无盲炮，爆体稳定性等</string>
+    <string name="useRegister_checkAfter_lab_zijian_xiaoguo">爆破效果</string>
+    <string name="useRegister_checkAfter_lab_zijian_mangpao">有无盲炮</string>
+    <string name="useRegister_checkAfter_lab_zijian_wending">爆体稳定</string>
+    <string name="useRegister_checkAfter_hint_zijian">其他补充说明（选填）</string>
+    <string name="useRegister_checkAfter_lab_accompany">陪同人员</string>
+
+    <string name="useRegister_geofence_btn_arrive">到达警戒点</string>
+    <string name="useRegister_geofence_btn_save">确认安全</string>
+    <string name="useRegister_geofence_btn_setup">确定设置电子围栏</string>
+    <string name="useRegister_geofence_btn_wait_save">待警戒人员确认周边安全</string>
+    <string name="useRegister_geofence_btn_notice_up">通报给监理</string>
+    <string name="useRegister_geofence_btn_wait_signature">待监理公司确认</string>
+    <string name="useRegister_geofence_btn_blast_start">开始爆破</string>
+    <string name="useRegister_geofence_btn_blast_over">解除电子围栏</string>
+
+    <string name="productRecord_title">作业记录</string>
+
+    <string name="supervise_record_title">监理旁站记录</string>
+    <string name="supervise_lab_1">项目概况</string>
+    <string name="supervise_lab_2">施工概况</string>
+    <string name="supervise_lab_3">监理情况</string>
+    <string name="supervise_lab_4">发现问题</string>
+    <string name="supervise_lab_5">处理意见</string>
+    <string name="supervise_lab3_sublab_1">爆破作业人员持证上岗，正确穿戴劳保用品</string>
+    <string name="supervise_lab3_sublab_2">钻孔（孔深、孔距、角度、孔数）</string>
+    <string name="supervise_lab3_sublab_3">领药、装药、填塞、起爆网络连接、起爆网络检查</string>
+    <string name="supervise_lab3_sublab_4">爆破安全防护、安全警戒布置、爆后现场检查</string>
+    <string name="supervise_lab3_sublab_5">爆破全过程是否符合《爆破安全规程》及《爆破安全评估报告》</string>
+    <string name="supervise_hint_1">请输入在爆破过程中发现的问题</string>
+    <string name="supervise_hint_2">请输入对于在爆破过程中发现的问题的处理意见</string>
+
+    <string name="signature_title">请签字</string>
+    <string name="signature_btn_clean">重写</string>
+</resources>

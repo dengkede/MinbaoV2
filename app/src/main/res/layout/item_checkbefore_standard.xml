@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_login_edit"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingEnd="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_title_standard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/useRegister_checkBefore_title_standard"
+        android:textColor="@color/color_home_list_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/color_useRecords_goodsInfo_divider" />
+
+    <RelativeLayout
+        android:id="@+id/layout_zuankong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/tv_lab_zuankong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:text="@string/useRegister_checkBefore_lab_standard_zuankong"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_more_zuankong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/icon_more" />
+
+        <TextView
+            android:id="@+id/tv_zuankong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:alpha="0.5"
+            android:text="符合设计规范"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_lab_zuankong"
+            android:layout_marginTop="6dp"
+            android:background="@color/color_useRecords_goodsInfo_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_zhuangyao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/tv_lab_zhuangyao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:text="@string/useRegister_checkBefore_lab_standard_zhuangyao"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_more_zhuangyao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/icon_more" />
+
+        <TextView
+            android:id="@+id/tv_zhuangyao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:alpha="0.5"
+            android:text="符合设计规范"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_lab_zhuangyao"
+            android:layout_marginTop="6dp"
+            android:background="@color/color_useRecords_goodsInfo_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_tiansai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/tv_lab_tiansai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:text="@string/useRegister_checkBefore_lab_standard_tiansai"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_more_tiansai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/icon_more" />
+
+        <TextView
+            android:id="@+id/tv_tiansai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:alpha="0.5"
+            android:text="符合设计规范"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_lab_tiansai"
+            android:layout_marginTop="6dp"
+            android:background="@color/color_useRecords_goodsInfo_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_anfang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/tv_lab_anfang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:text="@string/useRegister_checkBefore_lab_standard_anfang"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_more_anfang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/icon_more" />
+
+        <TextView
+            android:id="@+id/tv_anfang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:alpha="0.5"
+            android:text="符合设计规范"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_lab_anfang"
+            android:layout_marginTop="6dp"
+            android:background="@color/color_useRecords_goodsInfo_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_wangluo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/tv_lab_wangluo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:text="@string/useRegister_checkBefore_lab_standard_wangluo"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_more_wangluo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/icon_more" />
+
+        <TextView
+            android:id="@+id/tv_wangluo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:alpha="0.5"
+            android:text="符合设计规范"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_lab_wangluo"
+            android:layout_marginTop="6dp"
+            android:background="@color/color_useRecords_goodsInfo_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_zijian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/tv_lab_zijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:text="@string/useRegister_checkBefore_lab_standard_zijian"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_more_zijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/icon_more" />
+
+        <TextView
+            android:id="@+id/tv_zijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:alpha="0.5"
+            android:text="符合设计规范"
+            android:textColor="@color/color_home_username"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_lab_zijian"
+            android:layout_marginTop="6dp"
+            android:background="@color/color_useRecords_goodsInfo_divider" />
+    </RelativeLayout>
+
+</LinearLayout>

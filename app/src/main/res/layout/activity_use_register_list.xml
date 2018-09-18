@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_common_bg"
+    android:orientation="vertical"
+    tools:context="com.hlkj.minbao.ui.activity.UseRegisterListActivity">
+
+    <include layout="@layout/layout_common_toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp">
+
+        <include layout="@layout/item_refresh_recycle_list" />
+
+        <FrameLayout
+            android:id="@+id/layout_common_nodata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+            <include layout="@layout/item_common_nodata" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_consume"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_common_blue"
+        android:text="@string/useRegister_list_btn_consume"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</LinearLayout>
